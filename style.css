@@ -1,0 +1,69 @@
+body{
+	text-align: center;
+}
+h1{
+	font-size:35px;
+	}
+.ab{
+	background-color: lightpink;
+}
+
+.Welcome{
+  text-align:center;
+  background: linear-gradient(#EEFF41 0%,#004D40 100%);
+}
+.BP{
+  color:#E91E63;
+  font-size:50px;
+}
+.lisa{
+  height:475px;
+  width:350px;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+.info{
+	text-align: center;
+  font-size:22px;
+  font-style:bold;
+}
+.menu{
+	list-style: none;
+	font-family: sans-serif;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	z-index: 10;
+	cursor: pointer;
+}
+.links{
+	float: left;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
+	font-family: fantasy;
+	font-size: 20px;
+}
+.links:hover{
+	background-color:#26C6DA;
+}
+.song{
+	font-size: 30px;
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: blueviolet;
+	text-decoration: underline;
+}
+html{
+scroll-behavior: smooth;
+}
